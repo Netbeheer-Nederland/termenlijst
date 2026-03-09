@@ -12,10 +12,19 @@ prefixes:
   dcterms: http://purl.org/dc/terms/
   nbnl-term: https://begrippen.netbeheernederland.nl/id/
   unit: http://qudt.org/vocab/unit/
+  vocab: http://modellen.netbeheernederland.nl/termenlijst/
 annotations:
   model_uri: https://modellen.netbeheernederland.nl/termenlijst
   exchange_format: application/ld+json
   model_type: data-product
-types: {}
-enums: {}
-classes: {}
+classes:
+  Transformator:
+    description: Elektrisch apparaat dat via elektromagnetische inductie de
+      spanning van wisselstroom tussen circuits verhoogt of verlaagt.
+    annotations:
+      context:
+        Wordt gebruikt in elektriciteitsnetten en elektrische installaties om
+        spanningsniveaus te verhogen of te verlagen voor transport of gebruik.
+    class_uri: vocab:Transformator
+    exact_mappings:
+      - cim:PowerTransformer
