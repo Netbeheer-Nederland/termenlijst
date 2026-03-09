@@ -1,0 +1,3 @@
+= Termenlijst
+
+Lijst van begrippen gerelateerd aan de data-uitwisseling onder de NBNL Profile Group.

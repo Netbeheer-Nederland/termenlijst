@@ -1,0 +1,21 @@
+id: https://modellen.netbeheernederland.nl/termenlijst
+name: termenlijst
+description: |-
+    Lijst van begrippen gerelateerd aan de data-uitwisseling onder de NBNL Profile Group.
+title: Termenlijst
+license: https://www.apache.org/licenses/LICENSE-2.0.txt
+imports:
+- linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+  cim: https://cim.ucaiug.io/ns#
+  dcterms: http://purl.org/dc/terms/
+  nbnl-term: https://begrippen.netbeheernederland.nl/id/
+  unit: http://qudt.org/vocab/unit/
+annotations:
+  model_uri: https://modellen.netbeheernederland.nl/termenlijst
+  exchange_format: application/ld+json
+  model_type: data-product
+types: {}
+enums: {}
+classes: {}
